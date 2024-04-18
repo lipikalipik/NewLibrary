@@ -1,0 +1,24 @@
+body{
+    background:url("https://pics.craiyon.com/2023-07-05/67757e1edc284a1da0db6b9d73af46dd.webp");
+}
+div{
+    background-color:rgba(230, 137, 137, 0.478);
+    width:min-content;
+    display:flex;
+    justify-content: center;
+    align-items: centre;
+    border-radius:30px ;
+    border-color:rgb(230,137,137) ;
+    border-style: double;
+}
+pre{
+    color:rgba(255, 255, 0, 0.973);
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    color:black;
+    font-weight: bold;
+}
+head{
+    size:20px;
+}

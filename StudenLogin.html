@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form | Dan Aleko</title>
+  <link rel="stylesheet" href="student1.css"><!--changed-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <section>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    <div class="wave wave4"></div>
+  </section>
+  <div class="wrapper">
+    <form action="#" method="post"><!--changed-->
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Username" required>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" required>
+        <i class='bx bxs-lock-alt' ></i>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="C:\Users\lipik\OneDrive\Desktop\LibUser\StudentReg.html">Forgot Password</a>
+      </div>
+      
+    <button type="submit" class="btn" id="loginButton">Login</button>
+    <br>
+    <div id="dont">
+    <a  href="C:\Users\lipik\OneDrive\Desktop\LibUser\StudentReg.html" style="color:aliceblue">dont have an account</a>
+    </div>
+    
+    </form>
+    
+    <script>
+      document.getElementById("loginButton").addEventListener("click", function() {
+          window.location.href = "adminDash.html";
+      });
+  </script> 
+  
+  </form>
+</div>
+</body>
+</html>
